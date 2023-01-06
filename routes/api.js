@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const uuid = require('./helpers/uuid');
+const { readFileSync, readAndAppend } = require('./helpers/file')
 
 router.get('/api/notes', (req, res) => {
     console.info(`${req.method} request received for notes`);
