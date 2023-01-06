@@ -1,14 +1,18 @@
-const fs = require('fs');
-const id = require('uniqid');
-const path = require('path');
-
 const express = require('express');
-const PORT = process.env.PORT || 3001;
-
+const path = require('path');
+const fs = require('fs');
+const uuid = require('./helpers/uuid')
 const app = express();
 
+const PORT = process.env.PORT || 3001;
+
+
 app.get('/', (req, res) => {
-  res.send('Note Taker');
+  res.sendFile(path.join(__dirname, '/public/index.html'));
+});
+
+app.get('/notes', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/notes.html'));
 });
 
 app.listen(PORT, () => 
