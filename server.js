@@ -7,4 +7,6 @@ app.get('/', (req, res) => {
   res.send('Note Taker');
 });
 
-app.listen(PORT);
+app.listen(PORT, () => 
+console.log(`App listening at http://localhost:${PORT}`)
+);
