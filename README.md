@@ -7,7 +7,7 @@
 - [Visuals](#visuals)
 
 ## Description
-
+Note Taker is an app that allows users to take notes that will persist even after you close the page. The app has a save button and a button to start new notes. You can click on the notes after you have saved them to view them again.
 
 ## Visuals
 
