@@ -1,6 +1,7 @@
 # note-taker
 
-[Link to my project](https://github.com/Deiontre10/note-taker)
+[Link to my project](https://github.com/Deiontre10/note-taker)  
+[Deployed Site](https://sleepy-basin-96950.herokuapp.com/)
 
 ## Table of Contents
 - [Description](#description)
