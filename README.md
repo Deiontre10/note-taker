@@ -11,6 +11,8 @@ Note Taker is an app that allows users to take notes that will persist even afte
 
 ## Visuals
 
-![A main image](assets/images/main.png "Splash Screen")
-![A image of making a note](assets/images/make-note.png "Making A Note")
-![A image of the saved noted](assets/images/saved-notes.png "Saved Notes")
+![A main image](/public/assets/images/main.png "Splash Screen")  
+
+![A image of making a note](/public/assets/images/make-note.png "Making A Note")  
+
+![A image of the saved noted](/public/assets/images/saved-notes.png "Saved Notes")
